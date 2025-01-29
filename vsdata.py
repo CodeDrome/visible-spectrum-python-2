@@ -42,12 +42,9 @@ def generate_data(interval: int=1) -> Dict:
 
     # assemble arrays into dictionary
     data = {'nm': nm,
-            'THz': THz,}
-
-    # data['nm'] = nm
-    # data['THz'] = THz
-    data['Jsnsig'] = Jsnsig
-    data['rgb'] = rgb
-    data["rgbtuples"] = rgbtuples
+            'THz': THz,
+            'Jsnsig': Jsnsig,
+            'rgb': rgb,
+            'rgbtuples': rgbtuples}
 
     return data

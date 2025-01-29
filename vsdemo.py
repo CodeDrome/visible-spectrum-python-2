@@ -4,7 +4,7 @@ import vsoutput
 
 def main():
 
-    data = vsdata.generate_data(interval=10)
+    data = vsdata.generate_data(interval=8)
 
     vsoutput.to_console(data)
 
